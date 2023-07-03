@@ -3,7 +3,7 @@ insert into account_type(id, name, is_charged) values(2, 'CONTA-CORRENTE-EXCLUSI
 
 insert into tax(id,tax_value) values(1,0);
 insert into tax(id,tax_value) values(2,0.4);
-insert into tax(id,tax_value) values(3,1.458);
+insert into tax(id,tax_value) values(3,1);
 
 insert into comparator(id,comparator_value,initial_value,final_value) values(1,'<',-1,null);
 insert into comparator(id,comparator_value,initial_value,final_value) values(2,'>',1,null);
